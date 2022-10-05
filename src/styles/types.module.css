@@ -1,0 +1,16 @@
+.typescontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.image{
+    max-width: 30%;
+    margin-right: 10px;
+}

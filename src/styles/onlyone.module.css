@@ -1,0 +1,12 @@
+.image{
+    max-width: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.438);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 50%;
+}
+.shiny{
+    background-color: rgba(223, 223, 39, 0.521);
+    backdrop-filter: blur(10px);
+}

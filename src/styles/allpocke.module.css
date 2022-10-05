@@ -1,0 +1,8 @@
+.carrucell{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    place-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
