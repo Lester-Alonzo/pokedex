@@ -22,7 +22,7 @@ const SearchPockemon = () => {
     return (
         <>
         <form onSubmit={handleSubmit}>
-            <input type="text" onChange={handleChange} className={styles.input}/>
+            <input type="text" onChange={handleChange} className={styles.input} placeholder="🔎"/>
             {onlyOne && <button type="button" onClick={close} className={styles.closebutton}>❌</button>}
         </form>
         </>

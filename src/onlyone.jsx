@@ -14,15 +14,15 @@ const OnlyOne = () => {
         setShiny(!shiny)
     }
     return(
-        <>
+        <div className={styles.onlyonecontainer}>
         <div style={{display:"flex", alignItems:"center"}}>
-            <h1>{okdata.pokemon.name}</h1>
-            <button style={{border:"none", outline:"none", backgroundColor:"transparent"}} onClick={handleClick} title="see shiny">⭐</button>
+            <h1 style={{textShadow:"2px 2px 1px white"}}>{okdata.pokemon.name}</h1>
+            <button className={styles.starshiny} style={{}} onClick={handleClick} title="see shiny">⭐</button>
         </div>
         {shiny ? <img className={`${styles.image} ${styles.shiny}`}  src={okdata.pokemon.sprites.front_shiny} alt=""/> : <img className={styles.image} src={okdata.pokemon.sprites.front_default} alt=""/>}
         <Types types={okdata.pokemon.types}/>
         <Moves moves={okdata.pokemon.moves}/>
-        </>
+        </div>
     )
 }
 export default OnlyOne

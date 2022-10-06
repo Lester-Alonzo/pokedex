@@ -11,6 +11,11 @@ form{
     font-size: 16px;
     outline: none;
 }
+.input:focus{
+    border: 1px solid #333;
+}
+
+
 .closebutton{
     border: none;
     background-color: transparent;
